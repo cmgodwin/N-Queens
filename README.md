@@ -1,4 +1,4 @@
-# N-Queens-Problem
+# Evolutionary Approach to the N-Queens Problem
 
 #This code uses an evolutionary algorithm to solve the N-Queens problem. More specifically, candidate solutions have corresponding fitness scores, and an evolutionary process ensues in which lower fitness-score individuals are unlikely to survive. Of those that survive, some are mutated to search the problem space for higher fitness solutions. Ultimately, the 
 algorithm can be arbitrarily stopped at any point and the highest-fitness individual will be the closest candidate to a solution. 
