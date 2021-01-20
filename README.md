@@ -1,6 +1,6 @@
 # Evolutionary Approach to the N-Queens Problem
 
-The 8-Queens problem is a classic puzzle whose goal is to place 8 queens on a chessboard and have none of them hitting each other. The N-Queens problem is a generalization
+The 8-Queens problem is a classic puzzle whose goal is to place 8 queens on a chessboard and have none of them threatening another. The N-Queens problem is a generalization
 of this problem to an NxN sized board.
 
 This code uses an evolutionary algorithm to tackle the N-Queens problem. More specifically, candidate solutions have corresponding fitness scores, and an evolutionary process ensues in which lower fitness-score individuals are unlikely to survive. Of those that survive, some are mutated to search the problem space for higher fitness solutions. Ultimately, the algorithm can be arbitrarily stopped at any point and the highest-fitness individual will be the closest candidate to a solution. 
