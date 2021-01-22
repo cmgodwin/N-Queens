@@ -3,7 +3,7 @@ import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 import random
-import Quick_Sort
+from quick_sort import Sorts
 
 ## the candidate class contains information and functions pertaining to a
 ## particular candidate within the N_Queens solution space;

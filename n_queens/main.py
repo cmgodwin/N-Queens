@@ -1,7 +1,7 @@
 
 import random
 from candidate import Candidate
-import Quick_Sort
+from quick_sort import Sorts
 
 #choose number of queens AKA board size
 num_queens = 15
@@ -20,7 +20,7 @@ for i in range(pop_size):
     population.append([candidate, fitness])
 
 # sort population in order of fitness
-quick_sort = Quick_Sort.Sorts()
+quick_sort = Sorts()
 quick_sort.quick_sort_easy(population, wide=True)
 
 fitness_calculations = 0
