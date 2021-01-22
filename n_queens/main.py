@@ -1,3 +1,6 @@
+"""
+Code written by Curtis Godwin -- cmg39658@uga.edu
+"""
 
 import random
 from candidate import Candidate

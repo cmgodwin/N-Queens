@@ -1,3 +1,7 @@
+"""
+Code written by Curtis Godwin -- cmg39658@uga.edu
+"""
+
 #this import allows us to set our directory to the location of the current file
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
