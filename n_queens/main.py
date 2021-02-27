@@ -1,5 +1,9 @@
 """
 Code written by Curtis Godwin -- cmg39658@uga.edu
+
+For a course I took on Evolutionary Computation
+
+September 2019
 """
 
 import random
