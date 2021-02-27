@@ -7,7 +7,7 @@ This code uses an evolutionary algorithm to tackle the N-Queens problem. More sp
 
 The solutions are formatted as lists of n unique numbers. Since there must be a queen on each column (or "file" in chess lingo), the number at each index in the list serves as the position within that column where the queen sits. This ensures that no candidate solutions will have queens standing on the same row or column as another queen, but they can still have queens sharing diagonals.
 
-The fitness scores are calculated based on the number of shared diagonals between queens in a given solution. Starting at 100, each candidate is penalized 10 points for each instance of queens sharing diagonals. This means that if our algorithm finds a 100-fitness individual, it has found a solution.
+Since our setup prevents faulty solutions other than those involving shared diagonals, the fitness scores are calculated based on the number of shared diagonals between queens in a given solution. Starting at 100, each candidate is penalized 10 points for each instance of queens sharing diagonals. This means that if our algorithm finds a 100-fitness individual, it has found a solution.
 
 As an example for the output format, here is a solution (100-fitness individual) found by the algorithm for N=15:
 
