@@ -1,5 +1,9 @@
 """
 Code written by Curtis Godwin -- cmg39658@uga.edu
+
+For a course I took on Evolutionary Computation
+
+September 2019
 """
 
 #this import allows us to set our directory to the location of the current file
