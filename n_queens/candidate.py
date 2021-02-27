@@ -1,7 +1,7 @@
 """
-Code written by Curtis Godwin -- cmg39658@uga.edu
+Code written by Curtis Godwin -- cmgodwin263@gmail.com
 
-For a course I took on Evolutionary Computation
+This is from an optional project for a course I took on Evolutionary Computation.
 
 September 2019
 """
